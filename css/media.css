@@ -1,0 +1,31 @@
+/* For large desctops */
+/* Medium devices */
+@media (max-width: 1250px) {
+  .one-of-four {
+    width: 33%;
+  }
+}
+/* Smal devices */
+@media (max-width: 1023px) {
+  .one-of-three,
+.two-of-three,
+.one-of-four,
+.two-of-four,
+.three-of-four {
+    width: 50%;
+  }
+}
+/* Mobile devices */
+@media (max-width: 680px) {
+  .one-of-three,
+.two-of-three,
+.one-of-four,
+.two-of-four,
+.three-of-four,
+.list-two-items > li,
+.list-three-items > li,
+.list-four-items > li,
+.list-five-items > li {
+    width: 100%;
+  }
+}
