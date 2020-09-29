@@ -1,0 +1,320 @@
+body {
+  font: normal 16px/1 "Roboto", Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header,
+main,
+footer,
+section,
+aside,
+div,
+a,
+form,
+input,
+textarea,
+button,
+label,
+fieldset,
+legend,
+table,
+tr,
+th,
+td,
+ul,
+ol,
+li {
+  box-sizing: border-box;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+#myModal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  background: #bbb;
+}
+
+section,
+.flex,
+.wrapper,
+.wrapper-full {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.full-width,
+.wrapper,
+.full,
+.flex {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1440px;
+  padding: 0 5%;
+}
+
+.wrapper-full {
+  padding: 0 15px;
+  width: 100%;
+}
+
+.one-of-three,
+.two-of-three,
+.one-of-four,
+.two-of-four,
+.three-of-four,
+.full-width {
+  padding: 0 15px;
+  border: 1px solid #dadada;
+}
+
+.one-of-three {
+  width: 33.33%;
+}
+
+.two-of-three {
+  width: 66.66%;
+}
+
+.one-of-four {
+  width: 25%;
+}
+
+.two-of-four {
+  width: 50%;
+}
+
+.three-of-four {
+  width: 75%;
+}
+
+.at {
+  width: auto;
+}
+
+.f-center {
+  justify-content: center;
+}
+
+.f-left {
+  justify-content: flex-start;
+}
+
+.f-right {
+  justify-content: flex-end;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.v-center {
+  align-items: center;
+}
+
+.v-bottom {
+  align-items: flex-end;
+}
+
+.v-top {
+  align-items: flex-start;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.img-wrp img,
+.img-wrp svg {
+  width: 100%;
+}
+
+.icon {
+  width: 25px;
+  min-width: 20px;
+}
+.icon svg,
+.icon img {
+  width: 100%;
+}
+
+.hover-wrp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.3s linear;
+}
+
+small {
+  font: normal 1em/1.5 "Roboto", Arial, Helvetica, sans-serif;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.modal-btn-title {
+  width: 100%;
+}
+.modal-btn-title p {
+  margin-bottom: 8px;
+}
+.modal-btn-title .trigger {
+  padding: 10px;
+  border: 2px dotted #dadada;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  padding: 15px;
+}
+.modal.open {
+  display: flex;
+}
+.modal .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 6;
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal .content {
+  position: relative;
+  z-index: 7;
+  background: #fff;
+  max-width: 600px;
+  max-height: 600px;
+  padding: 35px 22.5px;
+  overflow: auto;
+}
+
+.logo {
+  max-width: 150px;
+  padding: 10px;
+  display: flex;
+}
+.logo a,
+.logo img {
+  width: 100%;
+}
+
+form,
+input,
+textarea,
+button,
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  apperarance: none;
+  border: none;
+  box-shadow: none;
+  background: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.main-form {
+  margin-bottom: 1.7rem;
+}
+.main-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font: normal 1em/1.1 "Roboto", Arial, Helvetica, sans-serif;
+}
+
+ul > li {
+  margin-bottom: 15px;
+}
+
+.list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.list > li {
+  padding: 15px;
+  border: 1px solid #dadada;
+}
+
+.list-two-items > li {
+  width: 50%;
+}
+
+.list-three-items > li {
+  width: 33.33%;
+}
+
+.list-four-items > li {
+  width: 25%;
+}
+
+.list-five-items > li {
+  width: 20%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+small {
+  box-sizing: border-box;
+  font: normal 1em/1.5 "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.title {
+  font: 500 1.4em/1.5 "Roboto", Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin-bottom: 1.7rem;
+}
+
+.subtitle {
+  font: normal 1.2em/1.5 "Roboto", Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin-bottom: 1.4rem;
+}
